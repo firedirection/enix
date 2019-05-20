@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Oswald');
+
+/*presets*/
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1{
+	font-size:60px;
+}
+
+h2{
+	font-size:30px;
+	color:#333340;
+}
+
+.btn{
+	background:#C10132;
+	display:inline-block;
+	padding:10px 25px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#fff;
+}
+
+.btn:hover{
+	background:#fff;
+	color:#C10132;
+	border:2px solid #C10132;
+	padding:8px 23px;
+}
+
+/*nav*/
+header{
+	position:relative;
+}
+
+header img{
+	width:200px;
+	padding:10px;
+	display: block;
+}
+
+nav{
+	position:absolute;
+	top:6px;
+	right:15px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	font-size:20px;
+	padding:5px;
+	color:#C10132;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	display: block;
+	text-transform: uppercase;
+}
+
+@keyframes zoom {
+	0%{
+		transform: scale(1,1);
+	}
+	100%{
+		transform: scale(2,2);
+	}
+}
+
+nav a:hover{
+	color:#333340;
+	animation:zoom 1s linear 1;
+	transform: scale(2,2);
+}
+
+/*hero*/
+
+#hero{
+	min-height:370px;
+	height:50vh;
+	background:url(../img/logo_lg.jpg);
+	background-position:center bottom;
+	position:relative;
+}
+
+#hero p{
+	position:absolute;
+	bottom:70px;
+	text-align: center;
+	width:300px;
+	margin-left:-150px;
+	left:50%;
+}
+
+/*feature*/
+
+#feature{
+	background:url(../img/ironman.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.overlay{
+	background:linear-gradient( rgba(255,255, 255, .25),rgba(255,255, 255, 1)  );
+	padding:100px;
+}
+
+#featurecontent{
+	max-width: 900px;
+	margin:0 auto;
+}
+
+/*products*/
+.container:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.fc, .fi{
+	float:left;
+	width:50%;
+	height:500px;
+}
+
+#p2, #p2 + .fc{
+	float:right;
+}
+
+#p1{
+	background:url(../img/spidey.jpg);
+	background-size:cover;
+	background-position: center 30%;
+}
+#p2{
+	background:url(../img/thor.jpg);
+	background-size:cover;
+	background-position: center 30%;
+}
+#p3{
+	background:url(../img/wolvie.jpg);
+	background-size:cover;
+	background-position: center top;
+}
+
+.fc{
+	display:flex;
+	align-items: center;
+	padding:0 60px;
+}
+
+.fcc p{
+	margin:10px 0;
+}
+
+@media screen and (max-width:700px){
+	#feature{
+		background-position: center center;
+		background-attachment: scroll;
+	}
+	.fc, .fi{
+		float:none;
+		width:100%;
+	}
+}
