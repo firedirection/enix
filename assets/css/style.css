@@ -96,9 +96,62 @@ nav li{
 nav a{
     color: #c03;
     text-decoration: none;
-    
+    border: 1px solid #c03;
+    display: block;
+    padding 2px 10px; 
+}
+
+#hero{
+    background: url(../enixassets-master/img/ironman.jpg);
+    background-size: cover;  /*contain*/
+    background-position: center center;
 }
 
 
+.overlay{
+  background: linear-gradient(rgba(204,0,51,0.7),rgba(204,0,51,0.75)); /*   use coolors.co*/
+}
+
+#herocontent{
+    text-align: center;
+    padding:40px;
+    
+}
+
+#herocontent p{
+    margin:20px auto;
+    max-width: 800px;
+    
+}
+
+#herocontent h1, #herocontent p{
+    color: #fff;
+}
 
 
+/*about*/
+#about{
+    padding: 40px;
+}
+
+/*featured*/
+.product{
+    width: 33.33333%;
+    float: left;
+}
+
+#p1{
+    background: url(../enixassets-master/img/spidey.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#p2{
+    background: url(../enixassets-master/img/thor.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#p3{
+    background: url(../enixassets-master/img/wolvie.jpg);
+    background-size: cover;
+    background-position: center center;
+}
