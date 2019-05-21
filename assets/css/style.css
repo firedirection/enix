@@ -155,3 +155,31 @@ nav a{
     background-size: cover;
     background-position: center center;
 }
+
+
+@keyframes fadein{
+    0%{opacity: 0;}
+
+100%{opacity: 100;
+    
+    }
+}
+
+.product{
+    height: 200px;
+}
+
+.productdetail{
+    height: 100%; 
+    display: none;
+
+    
+}
+
+
+.product:hover .productdetail{
+        animation: fadein .5s linear 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
