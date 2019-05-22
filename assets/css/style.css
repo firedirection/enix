@@ -183,3 +183,14 @@ nav a{
         align-items: center;
         justify-content: center;
 }
+
+
+
+#cta{
+    padding: 40px;
+    background:#333;
+}
+
+#cta h2, #cta p{
+    color: #fff;
+}
