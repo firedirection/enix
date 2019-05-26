@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Poppins|Source+Code+Pro&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+
+
+
+*{
+    
+ font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+
+
+
+/*Nav*/
+
+
+
+
+
+
+
+
+header{
+
+    background-color: black
+}
+
+
+header img{
+    max-width: 1000px;
+    max-height: 100px;
+   
+    filter: grayscale(50%)
+    opacity(50%)
+
+}
+
+nav ul{
+    text-align: right;
+  
+}
+
+nav li{
+    display: inline-block;
+ 
+        
+}
+nav a{color: white;
+    text-decoration: none;
+    display: block;
+       font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase; 
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+header h4{
+    color: white;
+}
+
+
+#overlay{
+   background: rgba(0,0,0,0.5);
+    max-width: 150px;
+    align-items: center;
+   
+}
