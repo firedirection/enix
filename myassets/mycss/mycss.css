@@ -28,6 +28,13 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+hr{
+ background-color: white;
+height: 1px;
+border: 1px dashed #000;
+}
+
+
 
 /*Nav*/
 
@@ -72,6 +79,13 @@ nav a{color: white;
     padding-right: 30px;
     font-size: 25px;
 }
+
+nav a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+       
+}
+
 
 header h4{
     color: white;
