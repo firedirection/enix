@@ -91,10 +91,62 @@ header h4{
     color: white;
 }
 
-
-#overlay{
-   background: rgba(0,0,0,0.5);
-    max-width: 150px;
-    align-items: center;
-   
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin: 0px auto;
 }
+
+
+.container:after{
+    content:' ';
+    display: block;
+    clear: both;
+
+}
+
+
+
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+footer h4{
+    color: white; 
+    text-align: right;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border: 2px solid #fff;
+    border-radius:600px; 
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+footer .fab{
+    font-size: 40px;
+}
+
+footer .fas{
+    font-size: 40px;
+}
+
+footer a:hover{
+    background: white;
+}
+
+footer a:hover .fab{
+    color:#000;
+}
+
+footer a:hover  .fas{
+    color: #000;
+}
+
+
