@@ -34,7 +34,10 @@ height: 1px;
 border: 1px dashed #000;
 }
 
-
+#middleline{
+     background-color: white;
+height: 2px;
+}
 
 /*Nav*/
 
@@ -93,7 +96,7 @@ header h4{
 
 .container{
     text-align: center;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0px auto;
 }
 
@@ -106,7 +109,112 @@ header h4{
 }
 
 
+/*specialty*/
+.specialty{
+    width:33.333333%;
+    height: 300px;
+    float: left;
 
+}
+
+
+
+
+
+.specialtydetail p{
+    color:white;
+    margin-top: 90px;
+ 
+}
+
+
+.specialtydetail h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+
+#s1{
+    background: url(../myimage/GIS_Mapping.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s2{
+    background: url(../myimage/Real%20estate%20finance%20modeling.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s3{
+    background: url(../myimage/photography.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+
+#s4{
+    background: url(../myimage/policy%20analysis.jpeg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s5{
+    background: url(../myimage/web-applications.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+
+#s6{
+    background: url(../myimage/journalism.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{0pacity 100;}
+}
+
+.specialtydetail{
+    height: 100%;
+    display: none;
+}
+
+
+
+.overlay{
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+}
+
+
+
+.specialty:hover .specialtydetail{
+    animation: fadein 1s linear 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 footer{
     background-color: black;
